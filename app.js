@@ -13,6 +13,7 @@ var server = http.createServer((req, res) => {
  }
 
  res.end('Hello World\n');
+ console.info("I was hit at " + Date.now());
 }).listen(8081, '127.0.0.1');
 server.setMaxListeners(0);
 
