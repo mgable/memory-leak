@@ -1,0 +1,14 @@
+{
+  "name": "memory-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "memory-leak.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "memwatch-next": "^0.3.0"
+  }
+}
