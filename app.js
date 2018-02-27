@@ -5,7 +5,7 @@ memwatch.on('leak', (info) => {
   console.error('Memory leak detected:\n', info);
 });
 
-memwatch.on('stats', function(stats) {console.info(stats)});
+memwatch.on('stats', function(stats) {console.info("Memory stats:\n ", stats)});
 
 var server = http.createServer((req, res) => {
  for (var i=0; i<1000; i++) {
