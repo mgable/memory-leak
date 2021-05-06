@@ -11,6 +11,6 @@
   "dependencies": {
     "heapdump": "^0.3.9",
     "memwatch-next": "^0.3.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   }
 }
